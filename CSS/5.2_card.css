@@ -1,8 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 .card { 
     max-width: 320px;
     margin: auto;
     text-align: center;
     background-color: bisque;
+    padding-bottom: 120px;
+    box-shadow: 3px 2px 15px grey;
+    text-align: left;
+}
 }
 .container {
   outline: 0;
@@ -10,11 +18,17 @@
   text-align: left;
   width: 100%;
   font-size: small;
+  margin:auto;
 }
 
 img {
     width: 320px;
     display: inline-block;
     padding: 0px;
+    margin-bottom: 7px;
+}
+
+a{
+  color:coral;
 }
 
