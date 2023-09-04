@@ -1,0 +1,20 @@
+.card { 
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    background-color: bisque;
+}
+.container {
+  outline: 0;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  font-size: small;
+}
+
+img {
+    width: 320px;
+    display: inline-block;
+    padding: 0px;
+}
+
