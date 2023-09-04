@@ -2,16 +2,16 @@
     box-sizing: border-box;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 4px 8px 7px grey;
     max-width: 300px;
     margin: auto;
     text-align: center;
-    background-color:cadetblue;
+    background-color:rgb(85, 159, 110);
     box-shadow: 3px 15px 6px grey;
     margin: auto;
-
-
+    color: black;
 }
+
 .container {
     border: none;
     outline: 0;
