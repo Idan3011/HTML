@@ -1,0 +1,107 @@
+* {
+    background-color:darkslategray;
+    color:whitesmoke;
+    font-size: 20px;
+}
+/*.container {
+    border: 1px solid black ;
+}*/
+
+.Flat {
+    text-align: center;
+}
+
+.Flat1 {
+    background-color:mediumblue;
+    color:white;
+    border: 1px solid mediumblue;
+    margin-right: 250px;
+    margin-top: 30px;
+    font-size: 25px;
+    
+}
+
+.Flat2 {
+    background-color: yellow;
+    color:white;
+    font-size: 15px;
+    border: 1px solid yellow;
+    margin-top: -0.5px;
+}
+
+.Round {
+    text-align: center;
+}
+.Round1 {
+    background-color:green;
+    color:white;
+    border: 1px solid green;
+    margin-right: 250px;
+    margin-top: 30px;
+    border-radius: 12px;   
+    font-size: 25px;
+}
+.Round2 {
+    background-color:salmon;
+    color:white;
+    font-size: 15px;
+    border: 1px solid green;
+    margin-top: -0.5px;
+    border-radius: 12px;   
+}
+
+.Flat_Ghost{
+    text-align: center;
+}
+
+.Flat_Ghost1 {
+    color: white;
+    border: 1px solid red;
+    margin-right: 250px;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+    font-size: 25px;
+}
+.Flat_Ghost1:hover {
+    background-color: red;
+}
+.Flat_Ghost2 {
+    color:white;
+    font-size: 15px;
+    border: 1px solid purple;
+    margin-top: -0.5px;
+    transition-duration: 0.4s;
+}
+.Flat_Ghost2:hover {
+    background-color: purple;
+}
+
+.Round_Ghost {
+    text-align: center;
+}
+
+.Round_Ghost1 {
+    color: white;
+    border: 1px solid orange;
+    margin-right: 250px;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+    font-size: 25px;
+    border-radius: 12px;
+}
+
+.Round_Ghost1:hover {
+    background-color: orange;
+}
+
+.Round_Ghost2 {
+    color:white;
+    font-size: 15px;
+    border: 1px solid teal;
+    margin-top: -0.5px;
+    transition-duration: 0.4s;
+}
+
+.Round_Ghost2:hover {
+    background-color: teal;
+}
