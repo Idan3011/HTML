@@ -1,0 +1,26 @@
+
+body {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+#box1 {
+    width: 150px;
+    height: 20vh;
+    background: green;
+    
+}
+
+#box2 {
+    width: 150px;
+    height: 20vh;
+    background: blue;
+}
+
+#box3 {
+    width: 150px;
+    height: 20vh;
+    background:red;
+}

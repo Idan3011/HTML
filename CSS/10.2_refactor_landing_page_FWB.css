@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    top:0;
+    left:0;
+}
+
+@media (max-width:500px) {
+
+}
+
+.header {
+    background: #344144;
+    height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+#navbar ul {
+    display:flex;
+    justify-content: row;
+    list-style: none;
+
+}
+
+.logo li {
+    position:absolute;
+    margin-left: 5rem;
+    margin-top: 1.9rem;
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+}
+
+
