@@ -1,0 +1,22 @@
+* {
+    background-color:#344a72;
+    position: relative;
+    text-align: center;
+    font-family: ;
+}
+
+.container {
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    border: 3px solid #344a72;
+    background-color: white;
+    left: 535px;
+    top: 45px;
+}
+
+.sign-in {
+    top: 20px;
+    background-color: white;
+
+}
