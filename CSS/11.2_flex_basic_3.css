@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display:flex;
+    height: 100vh;
+    background: black;
+    justify-content: end;
+}
+
+.item-1 {
+    width: 150px;
+    height: 20vh;
+    background: green;
+    align-self: flex-end;
+    
+    
+}
+
+.item-2 {
+    width: 150px;
+    height: 20vh;
+    background: blue;
+    align-self: flex-end;
+}
+
+.item-3 {
+    width: 150px;
+    height: 20vh;
+    background:red;
+    align-self: flex-end;
+}

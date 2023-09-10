@@ -1,25 +1,27 @@
-
-body {
-    width: 100%;
+* {
+    box-sizing: border-box;
+}
+.container {
     display:flex;
-    justify-content: center;
-    margin-top: 15rem;
+    height: 50vh;
+    justify-content: space-between;
 }
 
-#box1 {
+
+.item-1 {
     width: 150px;
     height: 20vh;
     background: green;
     
 }
 
-#box2 {
+.item-2 {
     width: 150px;
     height: 20vh;
     background: blue;
 }
 
-#box3 {
+.item-3 {
     width: 150px;
     height: 20vh;
     background:red;
