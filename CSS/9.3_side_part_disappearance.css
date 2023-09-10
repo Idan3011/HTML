@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: grey;
+    text-align: center;
+    display: flex;
+    justify-content: row;
+    top: 0;
+    left: 0;
+    height: 540px;
+}
+
+#mainpart {
+    width: 100%;
+    height: auto;
+    background: white;
+    border: 1px solid white;
+}
+
+#sidepart {
+    width: 100%;
+    height: auto;
+    background: black;
+    border: 1px solid black;
+    color:white;
+}
+
+@media (max-width: 500px) {
+
+    #sidepart {
+        display: none;
+    }
+}
+
+@media (min-width:501px) and (max-width:768px) {
+    #sidepart {
+        display:none;
+    }
+}
+
