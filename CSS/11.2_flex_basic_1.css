@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display:flex;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+
+.item-1 {
+    width: 150px;
+    height: 20vh;
+    background: green;
+    
+}
+
+.item-2 {
+    width: 150px;
+    height: 20vh;
+    background: blue;
+}
+
+.item-3 {
+    width: 150px;
+    height: 20vh;
+    background:red;
+}
