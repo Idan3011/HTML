@@ -79,6 +79,10 @@ h5 {
     margin-top: 1.2rem;
 }
 
+.main {
+    display: inline-block;
+}
+
 .main section{
     font-family: 'Hind', sans-serif;
     color:rgb(198, 192, 192);
@@ -86,30 +90,44 @@ h5 {
 }
 
 .main img {
-    margin-left: 56rem;
-    margin-top: -110rem;
-    border: 0.25rem solid #0f2696;
-    border-radius: 10rem;
+    height: 24rem;
+    position: relative;
+    border: 0.375rem solid #0f2696;
+    border-radius: 17rem;
+    z-index: +999;
+    margin-left: 742px;
+    margin-top: -352px;
 }
 
-button  {
+.main ul  {
+    position: relative;
     height: 3.4rem;
     border: 1px solid #1515a2;
     border-radius: 0.5rem;
-    padding: 1rem;
     color: azure;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
     text-size-adjust: 100%;
+    text-align: center;
+    list-style: none;
+
 }
 
-.btn2 {
-    margin-left: 1.1rem;  
+
+
+
+/* .main button a {
+    text-align: center;
 }
 
-.main .btn1 a:hover {
+.main button:hover {
     background-color: #1515a2;
     transition-duration: 0.4s;
     -webkit-text-fill-color: #120e0e;
 }
 
+.main button a:hover {
+    background-color: #1515a2;
+    transition-duration: 0.4s;
+    -webkit-text-fill-color: #120e0e;
+} */
