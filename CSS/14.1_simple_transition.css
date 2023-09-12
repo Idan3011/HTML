@@ -11,7 +11,7 @@ body {
     text-align: center;
     background-color: deepskyblue;
     cursor: pointer;
-    overflow: visible;
+    overflow: hidden;
 }
 
 
@@ -23,31 +23,28 @@ body {
     background-color: blueviolet;
     top:0;
     right:0;
-    overflow: hidden;
-    /* visibility: hidden; */
+    overflow: visible;
+    visibility: hidden;
     transform: translateX(21rem);
-    animation: animate1 5s ease-in-out infinite
+    animation: animate1 3s ease-in-out 1s infinite ;
+    z-index: 1;
 }
 
 
-.box1:hover {
+.box1:hover:after {
     visibility: visible;
-    animation: animate1 5s ease-in-out
 }
 
 
 @keyframes animate1 {
     from {
-        transform: translateX(21rem);
+        transform: translateX(0rem);
     }
     to {
         transform: translateX(0rem);
     }
     from {
-        width: 100%;
-    }
-    to {
-        width:0;
+        width: 0%;
     }
 
 }
