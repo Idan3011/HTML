@@ -137,6 +137,7 @@ h5 {
     text-align: center;
     padding-top:0.6rem;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .btn .li1 {

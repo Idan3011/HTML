@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+.box1 {
+    position: relative;
+    width: 21rem;
+    height: 16rem;
+    margin-top: 7rem;
+    margin-left: 17rem;
+    text-align: center;
+    background-color: deepskyblue;
+    cursor: pointer;
+    overflow: visible;
+}
+
+
+.box1:after {
+    content: '';
+    position: absolute;
+    width: 21rem;
+    height: 16rem;
+    background-color: blueviolet;
+    top:0;
+    right:0;
+    overflow: hidden;
+    /* visibility: hidden; */
+    transform: translateX(21rem);
+    animation: animate1 5s ease-in-out infinite
+}
+
+
+.box1:hover {
+    visibility: visible;
+    animation: animate1 5s ease-in-out
+}
+
+
+@keyframes animate1 {
+    from {
+        transform: translateX(21rem);
+    }
+    to {
+        transform: translateX(0rem);
+    }
+    from {
+        width: 100%;
+    }
+    to {
+        width:0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width :500px) {
+    body {
+        text-align: center;
+    }
+    .box1 {
+        position: absolute;
+   
+    }
+    
+
+}
+
+@media (min-width:501px) and (max-width :768px) {
+    body {
+        text-align: center;
+    }
+    .box1 {
+        position: absolute;
+   
+    }
+
+}
