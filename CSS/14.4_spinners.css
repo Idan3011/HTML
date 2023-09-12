@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background: black;
+    width: 100%;
+    min-height:100vh;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    align-self: center;
+    position: relative;
+    margin: 0 4.3rem;
+    /* overflow:hidden; */
+    cursor:progress;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    top:0;
+    left:0;
+    width: 6rem;
+    height: 6rem;
+    border:0.1rem solid grey;
+    border-radius: 50%; 
+    opacity: 0.5; 
+}
+
+.btn1:before{
+    content:"";
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-self: center;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-top:0.2rem solid rgb(255, 247, 8);
+    border-radius: 50%;
+    animation: animate1 2s ease-in  infinite;
+    visibility: hidden;
+    z-index: 3;
+    opacity: 1;
+}
+
+@keyframes animate1 {
+    from{
+        transform: rotate(0deg);
+    }
+   to {
+    transform: rotate(360deg);
+   }
+}
+
+.btn1:hover:before {
+    visibility: visible;
+}
+
+.btn2{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    top:0;
+    left:0;
+    width: 6rem;
+    height: 6rem;
+    border:0.1rem solid black;
+    border-radius: 50%; 
+    opacity: 0.5; 
+}
+.btn2:before{
+    content:"";
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-self: center;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-top:0.2rem solid rgb(255, 247, 8);
+    border-radius: 50%;
+    transform: translate(0rem);
+    animation: animate1 2s ease-in  infinite;
+    /* visibility: hidden; */
+    z-index: 3;
+    opacity: 1;
+}
+
+.btn3 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:4rem;
+    top:0;
+    left:0;
+    width: 4rem;
+    height: 4rem;
+    border-bottom:0.9rem dotted gray;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+
+.btn3:before{
+    content:"";
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-self: center;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border:0px solid rgb(255, 247, 8);
+    background-color: rgb(255, 247, 8);
+    border-radius: 50%;
+    transform: translate(-5rem,5rem);
+    animation: animate2 2s ease-in  infinite;
+     /* visibility: hidden; */
+    z-index: 3;
+    opacity: 1;
+
+}
+
+@keyframes animate2 {
+    from{
+        transform: translate(-4rem);
+
+    }
+    to {
+        transform: translateX(4rem);
+    }
+}
+
+.btn3:hover:before {
+    visibility: visible;
+}
