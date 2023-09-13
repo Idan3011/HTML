@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15.4 Grid Gallery</title>
+    <style>
+        .image{
+        width: 100%;
+        min-height: 100vh;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-areas: 'img1 img1 img2 img2 img2 img3 img4 img4'
+    'img5 img5 img2 img2 img2 img8 img8 img9'
+    'img5 img5 img6 img6 img7 img8 img8 img9'
+    'img5 img5 img6 img6 img13 img13 img13 img9'
+    'img10 img11 img11 img12 img13 img13 img13 img14';
+        }
+
+        .item {
+            width: 100%;
+            
+        }
+
+        .img1 {grid-area: img1;}
+        .img2 {grid-area: img2;}
+        .img3 {grid-area: img3;}
+        .img4 {grid-area: img4;}
+        .img5 {grid-area: img5;}
+        .img6 {grid-area: img6;}
+        .img7 {grid-area: img7;}
+        .img8 {grid-area: img8;}
+        .img9 {grid-area: img9;}
+        .img10 {grid-area: img10;}
+        .img11 {grid-area: img11;}
+        .img12 {grid-area: img12;}
+        .img13 {grid-area: img13;}
+        .img14 {grid-area: img14;}
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="../img/1.jpeg" alt="img1" class="item img1">
+        <img src="../img/2.jpeg" alt="img2" class="item img2">
+        <img src="../img/3.jpeg" alt="im3" class="item img3">
+        <img src="../img/4.jpeg" alt="img4" class="item img4">
+        <img src="../img/5.jpeg" alt="img5" class="item img5">
+        <img src="../img/6.jpeg" alt="img6" class="item img6">
+        <img src="../img/7.jpeg" alt="img7" class="item img7">
+        <img src="../img/8.jpeg" alt="img8" class="item img8">
+        <img src="../img/9.jpeg" alt="img9" class="item img9">
+        <img src="../img/10.jpeg" alt="img10" class="item img10">
+        <img src="../img/11.jpeg" alt="img11" class="item img11">
+        <img src="../img/12.jpeg" alt="img12" class="item img12">
+        <img src="../img/13.jpeg" alt="img13" class="item img13">
+        <img src="../img/14.jpeg" alt="img14" class="item img14">
+    </div>
+</body>
+</html>
