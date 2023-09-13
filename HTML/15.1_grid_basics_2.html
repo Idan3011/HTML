@@ -13,7 +13,12 @@
         }
         .container {
             display: grid;
-           grid-template-columns: auto auto auto;
+            grid-template-areas:
+            "red-area red-area red-area red-area"
+            "blue-area blue-area green-area green-area" 
+            "blue-area blue-area purple-area purple-area1"
+            /* grid-template-columns: repeat(auto-fit, minmax(100px,1fr)); */;
+            gap:0.2rem;
         }
 
         .red-area {
@@ -41,12 +46,12 @@
             border:0.5rem solid purple;
             background: purple;
             border-radius: 0.3rem;
-
+           
         }
-        .yellow-area {
-            grid-area:yellow-area ;
-            border:0.5rem solid yellow;
-            background: yellow;
+        .purple-area1 {
+            grid-area:purple-area1 ;
+            border:0.5rem solid purple;
+            background: purple;
             border-radius: 0.3rem;
         }
 
@@ -59,7 +64,7 @@
             <div class="blue-area"></div>
             <div class="green-area"></div>
             <div class="purple-area"></div>
-            <!-- <div class="yellow-area"></div> -->
+            <div class="purple-area1"></div>
     </div>
 </body>
 </html>
