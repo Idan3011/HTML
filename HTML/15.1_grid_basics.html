@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Basics</title>
+    <style>
+        body {
+            top:0;
+            left:0;
+            width: 100%;
+           min-height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-areas:
+            "red-area red-area blue-area blue-area"
+            "green-area purple-area purple-area purple-area" 
+            "yellow-area yellow-area yellow-area yellow-area";
+            gap:0.2rem;
+        }
+
+        .red-area {
+            grid-area: red-area;
+            border:0.5rem solid red;
+            border-radius: 0.3rem;
+            background: red;
+            
+        }
+        .blue-area {
+            grid-area: blue-area;
+            border:0.5rem solid blue;
+            background: blue;
+            border-radius: 0.3rem;
+
+        }
+        .green-area {
+            grid-area:green-area ;
+            border:0.5rem solid green;
+            background: green;
+            border-radius: 0.3rem;
+        }
+        .purple-area {
+            grid-area:purple-area ;
+            border:0.5rem solid purple;
+            background: purple;
+            border-radius: 0.3rem;
+        }
+        .yellow-area {
+            grid-area:yellow-area ;
+            border:0.5rem solid yellow;
+            background: yellow;
+            border-radius: 0.3rem;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="red-area"></div>
+            <div class="blue-area"></div>
+            <div class="green-area"></div>
+            <div class="purple-area"></div>
+            <div class="yellow-area"></div>
+    </div>
+</body>
+</html>

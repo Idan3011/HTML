@@ -1,11 +1,19 @@
+:root {
+    --praimary-color:black;
+    --secnodary-color:rgb(141, 131, 131);
+    --light-color:rgb(222, 222, 15);
+
+}
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     align-self: center;
-    background: black;
+    background:var(--praimary-color);
     width: 100%;
     min-height:100vh;
+
 
 }
 
@@ -38,7 +46,7 @@ ul li {
     left:0;
     width: 6rem;
     height: 6rem;
-    border:0.1rem solid grey;
+    border:0.1rem solid var(--secnodary-color);
     border-radius: 50%; 
     opacity: 0.5; 
 }
@@ -54,10 +62,10 @@ ul li {
     left:0;
     width: 100%;
     height: 100%;
-    border-top:0.2rem solid rgb(255, 247, 8);
+    border-top:0.2rem solid var(--light-color);
     border-radius: 50%;
     animation: animate1 2s ease-in  infinite;
-    visibility: hidden;
+    /* visibility: hidden; */
     z-index: 3;
     opacity: 1;
 }
@@ -71,9 +79,9 @@ ul li {
    }
 }
 
-.btn1:hover:before {
+/* .btn1:hover:before {
     visibility: visible;
-}
+} */
 
 .btn2{
     display: flex;
@@ -85,7 +93,7 @@ ul li {
     left:0;
     width: 6rem;
     height: 6rem;
-    border:0.1rem solid black;
+    /* border:0.1rem solid var(--secnodary-color); */
     border-radius: 50%; 
     opacity: 0.5; 
 }
@@ -100,7 +108,7 @@ ul li {
     left:0;
     width: 100%;
     height: 100%;
-    border-top:0.2rem solid rgb(255, 247, 8);
+    border-top:0.2rem solid var(--light-color);
     border-radius: 50%;
     transform: translate(0rem);
     animation: animate1 2s ease-in  infinite;
@@ -120,9 +128,8 @@ ul li {
     left:0;
     width: 4rem;
     height: 4rem;
-    border-bottom:0.9rem dotted gray;
+    border-bottom:0.9rem dotted var(--secnodary-color);
     opacity: 0.7;
-    z-index: 1;
 }
 
 
@@ -135,22 +142,20 @@ ul li {
     position: absolute;
     top:0;
     left:0;
-    width: 100%;
-    height: 100%;
-    border:0px solid rgb(255, 247, 8);
-    background-color: rgb(255, 247, 8);
+    width: 21%;
+    height: 21%;
+    border:0px solid var(--light-color);
+    background-color: var(--light-color);
     border-radius: 50%;
-    transform: translate(-5rem,5rem);
-    animation: animate2 2s ease-in  infinite;
-     /* visibility: hidden; */
-    z-index: 3;
-    opacity: 1;
-
+    margin-top:4rem;
+    transform: translate(-5rem,7rem);
+    animation: animate2 3s ease-in  infinite;
+    z-index: 1;
 }
 
 @keyframes animate2 {
     from{
-        transform: translate(-4rem);
+        transform: translate(-1rem);
 
     }
     to {
@@ -158,6 +163,3 @@ ul li {
     }
 }
 
-.btn3:hover:before {
-    visibility: visible;
-}

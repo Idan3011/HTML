@@ -1,0 +1,182 @@
+:root {
+    --primary-color: #344144;
+    --secondary-color:azure;
+    --light-color: #0f2696;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    top:0;
+    left:0;
+    background: var(--primary-color);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.logo {
+    position:absolute;
+    margin-left: 5.2rem;
+    margin-top: 0.9rem;
+    font-size: 0.9rem;
+    font-family:'Quicksand', sans-serif;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.navigation {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 890px;
+
+}
+.navigation ul {
+    list-style: none;
+    display: flex;
+    color: var(--secondary-color);
+    margin-right:18.5rem;
+    margin-top: 1rem;
+}
+
+.navigation ul li {
+    align-self: flex-end;
+    padding-left: 0.9rem;
+    padding-right: 1rem;
+    font-family:'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    
+}
+
+
+
+.navigation ul li a:hover  {
+    color: rgb(205, 201, 17);
+    transition-duration: 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color:  var(--secondary-color);
+} 
+
+.main {
+    position: relative;
+    margin-left: 4.2rem;
+    margin-top: 7rem;
+
+
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 2.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-top: 1.2rem;
+}
+
+.main {
+    display: block;
+    position: relative;
+}
+
+.main section{
+    font-family: 'Hind', sans-serif;
+    color:rgb(198, 192, 192);
+    line-height: 0.95rem;
+}
+
+.main .profile-pic {
+    height: 22rem;
+    position: relative;
+    border: 0.375rem solid var(--light-color);
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+        float: right;
+        float: top;
+        margin-top: -18rem;
+        margin-right: 2rem;
+}
+
+    .btn ul {
+    display: flex;
+    position: relative;
+    height: 3.4rem;
+    list-style: none;
+    margin-left: -2.5rem;
+    margin-top: 2rem;
+    }
+
+
+.btn button{
+    position: relative;
+    display: inline-block;
+    height: 3rem;
+    width: 7rem;
+    margin-right: 2rem;
+    border: 0.12rem solid var(--light-color);
+    border-radius: 0.5rem;
+    color: var(--secondary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.04rem;
+    font-weight: bold;
+    text-size-adjust: 100%;
+    text-align: center;
+    padding-top:0.6rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn .li1 {
+    flex:0.12;
+    text-size-adjust: 100%;
+}
+
+
+.btn .li2 {
+    flex:0.2;
+    text-size-adjust: 100%;
+
+}
+
+.btn button a {
+    display: block;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.btn button:hover {
+    background-color: var(--light-color);
+    transition-duration: 0.2s;
+    text-size-adjust: 100%;
+    -webkit-text-fill-color: black;
+}
+.btn button a:hover {
+    background-color: var(--light-color);
+    transition-duration: 0.2s;
+    text-size-adjust: 100%;
+    -webkit-text-fill-color: black;
+}
